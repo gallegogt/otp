@@ -8,9 +8,10 @@ repository = "https://github.com/naim94a/otp"
 readme = "README.md"
 keywords = ["RFC4226", "RFC6238", "OTP", "Authentication"]
 categories = ["authentication"]
+edition = "2018"
 
 [dependencies]
-ring = "^0.14"
+ring = "^0.16"
 binascii = "^0.1"
 
 [lib]
